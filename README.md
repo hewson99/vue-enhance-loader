@@ -9,13 +9,17 @@ this loader allows you to resue component's template and don't need to create th
 <component name="mytitle">
     <h1>title</h1>
 </component>
+
 <template>
   <div id="app">
     <h1>with vue-enhance-loader</h1>
     <mytitle />
     <welcome />
+    <mytitle />
+    <welcome />
   </div>
 </template>
+
 <sciprt>
 import HelloWorld from 'path/to/...' 
 export default {
